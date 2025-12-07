@@ -6,7 +6,7 @@
 ![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?style=for-the-badge&logo=devops&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
-### Cloud Engineer | Azure Specialist | DevOps Practitioner
+### Cloud Engineer | Azure Specialist | web development | Power platform
 
 [🌐 Ver Portfolio](https://MichaelRojasTacuma.github.io) • [💼 LinkedIn]([tu-linkedin](https://www.linkedin.com/in/michael-estiven-rojas-tacuma-72b7a5297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)) • [📧 Email](mailto:dev.michaelrojastacuma@gamil.com)
 
@@ -22,6 +22,8 @@ Portfolio profesional construido con tecnologías modernas, demostrando conocimi
 -  **DevOps Practices** - CI/CD, IaC, Automation
 -  **Monitoring & Analytics** - Azure Monitor, Application Insights
 -  **Security & Compliance** - Best practices implementadas
+-  **web development** - Desarrollo de aplicativos web
+-  **Power platform** - Desarrollo de aplicativos empresariales
 
 ##  Stack Tecnológico
 
@@ -47,9 +49,9 @@ Portfolio profesional construido con tecnologías modernas, demostrando conocimi
 
 ¿Interesado en colaborar o tienes alguna pregunta?
 
-- 📧 Email: dev.michaaelrojastacuma@gamil.com
-- 💼 LinkedIn: [Michael Estiven Rojas Tacuma](link)
-- 🐦 Telefono: +57 3204301956
+-  Email: dev.michaaelrojastacuma@gamil.com
+-  LinkedIn: [Michael Estiven Rojas Tacuma](link)
+-  Telefono: +57 3204301956
 
 ---
 
