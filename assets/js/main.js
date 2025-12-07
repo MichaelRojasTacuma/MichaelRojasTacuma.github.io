@@ -75,3 +75,92 @@ function highlightNavLink() {
 window.addEventListener('scroll', highlightNavLink);
 
 console.log('🚀 Navbar loaded successfully!');
+
+// ========================================
+// HERO SECTION - TYPED.JS
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+
+    if (!document.querySelector('#typed-text')) {
+        console.error('❌ No existe el elemento #typed-text.');
+        return;
+    }
+
+    const typed = new Typed('#typed-text', {
+        strings: [
+            'Cloud Engineer ☁️',
+            'DevOps Specialist 🚀',
+            'Azure Expert 💙',
+            'Terraform Developer 🔧',
+            'CI/CD Architect 🔄',
+            'Infrastructure as Code 📝',
+            'Power Platform Developer ⚡'
+        ],
+        typeSpeed: 80,
+        backSpeed: 50,
+        backDelay: 2000,
+        startDelay: 500,
+        loop: true,
+        showCursor: false
+    });
+
+    console.log('✨ Typed.js initialized!');
+});
+
+
+// ========================================
+// COUNTER ANIMATION
+// ========================================
+function animateCounter(element) {
+    const target = parseInt(element.getAttribute('data-target'));
+    const duration = 2000; // 2 segundos
+    const increment = target / (duration / 16); // 60fps
+    let current = 0;
+
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+            element.textContent = target;
+            clearInterval(timer);
+        } else {
+            element.textContent = Math.floor(current);
+        }
+    }, 16);
+}
+
+// Iniciar counters cuando sean visibles
+const observerOptions = {
+    threshold: 0.5
+};
+
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const counters = entry.target.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                if (counter.textContent === '0') {
+                    animateCounter(counter);
+                }
+            });
+            counterObserver.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Observar la sección hero
+const heroSection = document.getElementById('home');
+if (heroSection) {
+    counterObserver.observe(heroSection);
+}
+
+// ========================================
+// AOS (Animate On Scroll) INITIALIZATION
+// ========================================
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100,
+    easing: 'ease-out-cubic'
+});
+
+console.log('🎨 AOS initialized!');
