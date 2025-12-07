@@ -21,6 +21,23 @@
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'neon-green': '#39FF14',
+                        'neon-purple': '#BC13FE',
+                        'neon-blue': '#00D9FF',
+                        'neon-red': '#FF073A',
+                        'dark-bg': '#0A0E27',
+                        'dark-card': '#161B33',
+                        'dark-hover': '#1E2442'
+                    }
+                }
+            }
+        }
+    </script>
     
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -31,13 +48,106 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body class="bg-gray-900 text-white">
+<body class="bg-dark-bg text-white pt-20">
     
     <!-- SECCIÓN 1: Header/Navbar -->
-    <header>
-        <!-- Programaremos esto paso a paso -->
-    </header>
+    <!-- ========================================
+     NAVBAR - Sticky con efecto Glass
+======================================== -->
+<header class="fixed top-0 w-full z-50 navbar-glass">
+    <nav class="container mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+            
+            <!-- Logo / Nombre -->
+            <a href="#home" class="flex items-center space-x-2 group">
+                <div class="w-10 h-10 bg-gradient-to-br from-neon-green to-neon-purple rounded-lg flex items-center justify-center box-glow-green">
+                    <i class="ri-cloud-line text-2xl text-dark-bg"></i>
+                </div>
+                <span class="text-xl font-bold">
+                    <span class="text-white">Michael</span>
+                    <span class="text-neon-red neon-glow-red">Rojas</span>
+                </span>
+            </a>
 
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#home" class="nav-link text-gray-300 hover:text-neon-green font-medium">
+                    Inicio
+                </a>
+                <a href="#about" class="nav-link text-gray-300 hover:text-neon-green font-medium">
+                    Sobre Mí
+                </a>
+                <a href="#projects" class="nav-link text-gray-300 hover:text-neon-green font-medium">
+                    Proyectos
+                </a>
+                <a href="#certifications" class="nav-link text-gray-300 hover:text-neon-green font-medium">
+                    Certificaciones
+                </a>
+                <a href="#contact" class="nav-link text-gray-300 hover:text-neon-green font-medium">
+                    Contacto
+                </a>
+                
+                <!-- CTA Button -->
+                <a href="#contact" class="btn-neon relative z-10 inline-block">
+                    Hablemos
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu md:hidden fixed top-0 right-0 w-64 h-screen bg-dark-card shadow-2xl" id="mobileMenu">
+            <div class="flex flex-col p-8 space-y-6 mt-20">
+                <a href="#home" class="text-gray-300 hover:text-neon-green font-medium text-lg mobile-link transition-all">
+                    <i class="ri-home-line mr-2"></i> Inicio
+                </a>
+                <a href="#about" class="text-gray-300 hover:text-neon-green font-medium text-lg mobile-link transition-all">
+                    <i class="ri-user-line mr-2"></i> Sobre Mí
+                </a>
+                <a href="#projects" class="text-gray-300 hover:text-neon-green font-medium text-lg mobile-link transition-all">
+                    <i class="ri-folder-line mr-2"></i> Proyectos
+                </a>
+                <a href="#certifications" class="text-gray-300 hover:text-neon-green font-medium text-lg mobile-link transition-all">
+                    <i class="ri-award-line mr-2"></i> Certificaciones
+                </a>
+                <a href="#contact" class="text-gray-300 hover:text-neon-green font-medium text-lg mobile-link transition-all">
+                    <i class="ri-mail-line mr-2"></i> Contacto
+                </a>
+
+                <!-- Social Links en Mobile -->
+                <div class="flex space-x-4 pt-6 border-t border-gray-700">
+                    <a href="#" class="text-neon-blue hover:text-neon-green transition-all">
+                        <i class="ri-linkedin-box-fill text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-neon-purple hover:text-neon-green transition-all">
+                        <i class="ri-github-fill text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-neon-red hover:text-neon-green transition-all">
+                        <i class="ri-mail-fill text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- CONTENIDO TEMPORAL PARA PROBAR -->
+<section id="home" class="min-h-screen flex items-center justify-center">
+    <h1 class="text-6xl font-bold text-neon-green neon-glow-green">HOME</h1>
+</section>
+
+<section id="about" class="min-h-screen flex items-center justify-center bg-dark-card">
+    <h1 class="text-6xl font-bold text-neon-purple neon-glow-purple">ABOUT</h1>
+</section>
+
+<section id="projects" class="min-h-screen flex items-center justify-center">
+    <h1 class="text-6xl font-bold text-neon-blue neon-glow-blue">PROJECTS</h1>
+</section>
     <!-- SECCIÓN 2: Hero Section -->
     <section id="hero">
         <!-- Aquí irá tu presentación con Typed.js -->
