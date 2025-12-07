@@ -12,8 +12,8 @@
 
 ### **Cloud Engineer | Azure Specialist | Web Developer | Power Platform Builder**
 
-[🌐 Portafolio](https://MichaelRojasTacuma.github.io) •  
-[💼 LinkedIn](https://www.linkedin.com/in/michael-estiven-rojas-tacuma-72b7a5297) •  
+[🌐 Portafolio](https://MichaelRojasTacuma.github.io)
+[💼 LinkedIn](https://www.linkedin.com/in/michael-estiven-rojas-tacuma-72b7a5297) 
 [📧 Email](mailto:dev.michaelrojastacuma@gmail.com)
 
 </div>
