@@ -1,16 +1,23 @@
-# ☁️ Portfolio - [Tu Nombre]
+# ☁️ Portfolio - Michael Estiven Rojas Tacuma
 
 <div align="center">
 
+<!-- Badges de tecnologías -->
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?style=for-the-badge&logo=devops&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-0A0A0A?style=for-the-badge&logo=azuredevops&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![PowerApps](https://img.shields.io/badge/Power_Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white)
+![PowerAutomate](https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=for-the-badge&logo=microsoft-sharepoint&logoColor=white)
 
-### Cloud Engineer | Azure Specialist | web development | Power platform
+### **Cloud Engineer | Azure Specialist | Web Developer | Power Platform Builder**
 
-[🌐 Ver Portfolio](https://MichaelRojasTacuma.github.io) • [💼 LinkedIn]([tu-linkedin](https://www.linkedin.com/in/michael-estiven-rojas-tacuma-72b7a5297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)) • [📧 Email](mailto:dev.michaelrojastacuma@gamil.com)
+[🌐 Portafolio](https://MichaelRojasTacuma.github.io) •  
+[💼 LinkedIn](https://www.linkedin.com/in/michael-estiven-rojas-tacuma-72b7a5297) •  
+[📧 Email](mailto:dev.michaelrojastacuma@gmail.com)
 
 </div>
+
 
 ---
 
