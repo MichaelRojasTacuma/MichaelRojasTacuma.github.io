@@ -22,7 +22,7 @@ Portfolio profesional construido con tecnologías modernas, demostrando conocimi
 -  **DevOps Practices** - CI/CD, IaC, Automation
 -  **Monitoring & Analytics** - Azure Monitor, Application Insights
 -  **Security & Compliance** - Best practices implementadas
--  **web development** - Desarrollo de aplicativos web
+-  **Web development** - Desarrollo de aplicativos web
 -  **Power platform** - Desarrollo de aplicativos empresariales
 
 ##  Stack Tecnológico
