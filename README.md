@@ -56,7 +56,7 @@ Portfolio profesional construido con tecnologías modernas, demostrando conocimi
 
 ¿Interesado en colaborar o tienes alguna pregunta?
 
--  Email: dev.michaaelrojastacuma@gamil.com
+-  Email: dev.michaaelrojastacuma@gmail.com
 -  LinkedIn: [Michael Estiven Rojas Tacuma](link)
 -  Telefono: +57 3204301956
 
